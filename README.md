@@ -11,7 +11,7 @@ PROTOTYPE VERSION 1: From here, I am able to improve time optimization or includ
 - **Scraper Script (`bizbuysell_scraper.py`):**  
   Rebuilds the BizBuySell scraper using up-to-date XPaths to accommodate any recent changes to the BizBuySell website structure.
 
-- **Sample Output (`brokers_sample.xlsx`):**  
+- **Sample Output (`bbs_example....xlsx`):**  
   Demonstrates the final Excel format, showing columns for Name, Phone, Company, and Website.
 
 ---
