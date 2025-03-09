@@ -2,12 +2,14 @@
 
 This repository contains a Python script that scrapes business broker data from BizBuySell’s directory pages and outputs the results to an Excel file. The script is designed to extract each broker’s **Name**, **Phone Number**, **Company**, and **Website**. A sample Excel output is also provided for reference.
 
+PROTOTYPE VERSION 1: From here, I am able to improve time optimization or include more details per broker for the next proto.
+
 ---
 
 ## Overview
 
 - **Scraper Script (`bizbuysell_scraper.py`):**  
-  Rebuilds the BizBuySell scraper from the ground up using up-to-date XPaths to accommodate any recent changes to the BizBuySell website structure.
+  Rebuilds the BizBuySell scraper using up-to-date XPaths to accommodate any recent changes to the BizBuySell website structure.
 
 - **Sample Output (`brokers_sample.xlsx`):**  
   Demonstrates the final Excel format, showing columns for Name, Phone, Company, and Website.
@@ -30,6 +32,9 @@ This repository contains a Python script that scrapes business broker data from 
 
 5. **Robust Error Handling:**  
    If any elements are missing or cannot be clicked, the script logs the error and continues with the next broker.
+
+6. **Stop and enjoy data at any time!**
+   Close the chrome tabs at any time and all previously scraped brokers will be saved to the excel file, even if you are mid-run!
 
 ---
 
